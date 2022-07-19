@@ -1,0 +1,307 @@
+@media all and (max-width: 360px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    body{
+        padding: 0px;
+        margin: 5px;
+        max-width: fit-content;
+    }
+    
+    /* INDEX */
+    
+    .contenedor{
+        flex-direction: column;
+    }
+    
+    .contenedor__bienvenidos{
+        flex-direction: column;
+        width: 280px;
+    }
+    
+    .imagenInfo{
+        width: 350px;
+        margin-top: 5px;
+    }
+    
+    .bienvenidos__titulo {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .bienvenidos__primerP {
+        margin: 0px;
+        font-size: 18px;
+    }
+    
+    .contenedor__equipo {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+    }
+    
+    .equipo__titulo {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .contenedor__cardP {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-content: center;
+    }
+    
+    .contenedor__cardP p {
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .contenedor__hojaDeRuta{
+        flex-direction: column;
+        width: 280px;
+        align-items: center;
+    }
+    
+    .hojaDeRuta__media{
+        width: 300px;
+        flex-direction: row;
+    }
+    
+    .hojaDeRuta__ul1{
+        margin-top: 200px;
+        width:280px;
+    }
+    
+    .hojaDeRuta__ul2 {
+    margin-top: 200px;
+    list-style: none;
+    }
+    .hojaDeRuta__ul1 > li{
+    margin-bottom: 30px;
+    }
+    
+    .hojaDeRuta__ul2 > li{
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin: 0px;
+    }
+    
+    .hojaDeRuta__video{
+    position: absolute;
+    margin-top: 25px;
+    }
+
+    /* GALERIA */
+
+    .grid-gallery {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+    .final{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .final__redes{
+        flex-direction: row;
+        margin-top: 25px;
+        padding-right: 15px;
+    }
+    
+    .final__imagen{
+    margin-top: 25px;
+    width: 200px;
+    }
+    
+    .final__formulario{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    /* TERMINOS Y CONDICIONES */
+
+    .pagina5{
+        width: auto;
+    }
+    
+    /* UNETE AL CLUB */
+
+    .intro__uac{
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .intro__uac > div{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .intro__uac > h1{
+        text-align: center;
+    }
+    
+    .intro__uac > img{
+        width: 290px;
+    }
+
+    #comprarUnMono{
+        flex-direction: column;
+        margin-top: 30px;
+        width: fit-content;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    #comprarUnMono h2 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    #comprarUnMono p {
+        width: fit-content;
+    }
+    
+    #comprarUnMono > button{
+        padding: 10px;
+        width: 120px;
+        margin: 0px;
+    }
+
+    .especificaciones{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 350px;
+    }
+    
+    .especificaciones div{
+        margin-left: 0px;
+    }
+    
+    .especificaciones h2{
+        text-align: center;
+    }
+    
+    .especificaciones p{
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+        text-align: justify;
+    }
+    
+    
+    .especificaciones img{
+        width: 350px;
+        margin-right: 0px;
+    }
+
+    .herramientasC{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    .herramientasC h2{
+        font-size: 40px;
+        text-align: center;
+    
+    }
+    
+    .herramientasC p{
+        margin: 0px;
+        font-size: 15px;
+        text-align:justify;
+    }
+
+    .campania{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .campania > div{
+        width: fit-content;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .campania > div > p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .kennelImagen{
+        width: 300px;
+        height: fit-content;
+    }
+    
+    .tiempoLimitado{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .tL__imagen{ 
+        display: flex;
+        flex-direction: row; 
+    }
+    
+    .tL__imagen > img{
+        width: 175px;
+
+    }
+    
+    .tL__p{
+        margin: 0px;
+    }
+    
+    .tL__p > p{
+        margin: 5px;
+        font-size: 15px;
+    }
+    
+    .contribuciones{
+        flex-direction: column;
+        width: fit-content;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .contribuciones div{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 45px;
+    }
+    
+    .contribuciones > div > p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    
+    .contribuciones > img{
+        width: 350px;
+        margin-right: 20px;
+    }
+
+} 
+
+@media (min-width: 360px) {
+    .galeriaGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .galeriaGrid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
