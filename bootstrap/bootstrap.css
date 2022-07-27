@@ -1,0 +1,33 @@
+a{
+    font-family: monospace;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.redes{
+    margin: 5px;
+}
+
+/* INDEX BOOTSTRAP */
+
+#bienvenidos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-inline: 40px;
+}
+
+#bienvenidosParrafo{
+    margin-top: 25px;
+}
+
+#equipoParrafo{
+    margin-top: 15px;
+    text-align: right;
+}
